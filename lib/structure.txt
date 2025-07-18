@@ -1,0 +1,31 @@
+plants_admin_panel/
+├── android/                          # Android-specific files
+├── ios/                              # iOS-specific files
+├── lib/                              # Main Flutter code
+│   ├── main.dart                     # App entry point
+│   ├── models/                       # Data models
+│   │   ├── customer.dart             # Customer data model
+│   │   ├── sheet.dart                # Sheet data model
+│   │   └── cell_data.dart            # Cell data model
+│   ├── services/                     # Business logic & API calls
+│   │   ├── firebase_service.dart     # Firebase operations
+│   │   └── pdf_service.dart          # PDF generation
+│   ├── providers/                    # State management
+│   │   ├── customer_provider.dart    # Customer state management
+│   │   └── sheet_provider.dart       # Sheet state management
+│   ├── screens/                      # App screens/pages
+│   │   ├── home_screen.dart          # Main customer list screen
+│   │   ├── customer_detail_screen.dart # Customer details & sheets
+│   │   └── sheet_editor_screen.dart  # Spreadsheet editor
+│   ├── widgets/                      # Reusable UI components
+│   │   ├── customer_card.dart        # Customer display card
+│   │   ├── add_customer_dialog.dart  # Add customer form
+│   │   ├── sheet_card.dart           # Sheet display card
+│   │   ├── add_sheet_dialog.dart     # Add sheet form
+│   │   └── editable_table.dart       # Spreadsheet table widget
+│   └── utils/                        # Utilities & constants
+│       └── constants.dart            # App constants
+├── pubspec.yaml                      # Dependencies & project config
+├── pubspec.lock                      # Locked dependency versions
+├── analysis_options.yaml            # Dart analysis options
+└── README.md                         # Project documentation

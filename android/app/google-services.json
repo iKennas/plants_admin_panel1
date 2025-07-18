@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "10670091685",
+    "project_id": "plants-admin-panel",
+    "storage_bucket": "plants-admin-panel.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:10670091685:android:8a78d2c86195c7655c4c4c",
+        "android_client_info": {
+          "package_name": "com.example.plants_admin_panel"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBz72RNXdu2skmQx6PHE5C9UCDAgfqUDP8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:10670091685:android:312ac5c3f09997515c4c4c",
+        "android_client_info": {
+          "package_name": "com.example.robin1_1"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBz72RNXdu2skmQx6PHE5C9UCDAgfqUDP8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
